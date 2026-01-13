@@ -1,32 +1,21 @@
 Cài đặt phần mềm
-
 Kết hợp IDE và compiler phù hợp
-
-IDE | Compiler
-
-VS Code | GCC
-
-Code::Blocks | GCC         
-
-STM32CubeIDE | ARM-GCC      
-
-Arduino IDE	| AVR-GCC      
-
+____________________________________
+|     IDE          |    Compiler   |
+|------------------|---------------|
+|  VS Code         |      GCC      |
+|  Code::Blocks    |      GCC      |  
+|  STM32CubeIDE    |     ARM-GCC   | 
+|  Arduino IDE	   |     AVR-GCC   |
+|__________________|_______________|
 
 Bước 1: Cài GCC (GNU Compiler Collection): cài từ MinGW (là bộ công cụ giúp chạy GCC trên Windows): https://sourceforge.net/projects/mingw/
-
 Sau khi cài, cần thêm đường dẫn trình biên dịch của MinGW trong môi trường hệ thống windows (xem video hướng dẫn)
-
 Bước 2: Cài Visual Studio Code: https://code.visualstudio.com
-
   + Trong menu extension của VS Code, cài thêm ít nhất 4 extension sau:
-
 C/C++
-
 C/C++ Extension Pack
-
 C/C++ Themes
-
 Code Runner
 
 Link video hướng dẫn cài đặt: https://www.youtube.com/watch?v=W7Wea6Nnrcw 
